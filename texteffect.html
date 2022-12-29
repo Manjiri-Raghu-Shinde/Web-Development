@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>div and span</title>
+        <style>
+            .blue{
+                background-color: #1234;
+                color: white;
+                height: 100px;
+                width: auto;
+                overflow: hidden;
+               /* white-space: nowrap;*/ 
+                text-overflow: ellipsis;
+                
+            }
+            .blue:hover{
+                overflow: visible;
+            }
+            .yellow{
+                background-color: yellow;
+                height: 100px;
+                width: 500px;
+                /*word-break: break-all;*/
+                word-wrap: break-word;
+                overflow: hidden;
+            }
+            .red{
+                background-color: green;
+            }
+            .great{
+                color: black;
+            }
+        </style>
+    
+    </head>
+    <body>
+        <div class="blue">
+            Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook 
+        </div>
+        <div class="yellow">
+            <p>Apple Apple Apple Apple Apple Apple Apple Apple Apple looooooooooooooong Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple loooooooooooooooooong Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple </p>
+        </div>
+        <div class="red">
+            <p>Microsoft</p>
+        </div>
+    
+    </body>
+
+</html>
